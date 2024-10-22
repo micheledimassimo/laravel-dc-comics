@@ -6,12 +6,12 @@
             'active' => true,
         ],
         [
-            'url' => '/chi-siamo',
-            'label' => 'Chi siamo',
+            'url' => '/comics',
+            'label' => 'Comics',
             'active' => true,
         ],
         [
-            'url' => '/contatti',
+            'url' => '/comics.show',
             'label' => 'Contatti',
             'active' => false,
         ],

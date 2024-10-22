@@ -9,17 +9,15 @@ Route::resource('comics', ComicController::class);
 
 Route::get('/',[ComicController::class, 'index']);
 
+
+    
+
+
 Route::get('/', function () {
     
 
-    
-
-    return view('welcome', [
-        
-    ]);
-    
+    return view('welcome', );
+    // return view('welcome', compact('firstName', 'lastName'));
 });
-
-
 
 // Route::get(PERCORSO CON CUI ARRIVARE ALLA PAGINA, FUNZIONE DI CALLBACK CHE MI CREA LA RISPOSTA DA DARE ALL UTENTE)
