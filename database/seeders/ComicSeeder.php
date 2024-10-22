@@ -22,7 +22,7 @@ class ComicSeeder extends Seeder
             $newcomic->description = $comic['description'];
             $newcomic->src = $comic['thumb'];
             $explodedPrice = explode('$', $comic['price']);
-            $newcomic->price = intval($explodedPrice[1]);
+            $newcomic->price = floatval($explodedPrice[1]);
             $newcomic->series = $comic['series'];
             $newcomic->type = $comic['type'];
             $newcomic->save();

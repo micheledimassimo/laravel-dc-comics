@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('comic_name', 128);
             $table->text('description');
             $table->string('src', 1024);
-            $table->float('price', 4, 2);
+            $table->float('price', 4, 2)->unsigned();
             $table->string('series', 64)->nullable();
             $table->string('type', 64)->nullable();
             $table->timestamps();
