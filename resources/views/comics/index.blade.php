@@ -16,7 +16,11 @@
                     <h5 class="card-title">{{ $comic->comic_name }}</h5>
                     <p class="card-text">Prezzo: {{ $comic->price }}&euro;</p>
                 </div>
+                <a href="{{ route('comics.show', ['comic' => $comic->id]) }}" class="btn btn-primary">
+                Info
+            </a>
             </div>
+            
         </div>
     @endforeach
 </div>

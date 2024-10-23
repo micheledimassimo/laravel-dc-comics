@@ -10,11 +10,7 @@
             'label' => 'Comics',
             'active' => true,
         ],
-        [
-            'url' => '/comics.show',
-            'label' => 'Contatti',
-            'active' => false,
-        ],
+        
     ];
 @endphp
 
